@@ -13,21 +13,55 @@
   }
 }
 
-.App-header {
+.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(15px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header {
+  color: #fdffff;
+  font-size: 20px;
 }
 
+.Correct-answer {
+  color:chartreuse;
+  font-size: 30px;
+}
+
+.Wrong-answer {
+  color:crimson;
+  font-size: 30px;
+
+}
+
+.Home {
+  font-size: 23px;
+  color:rgb(1, 1, 0);
+}
+
+.Type {
+  font-size: 12px;
+  margin: 3px;
+}
+
+.Multiple {
+  font-size: 12px;
+  margin: 3px;
+
+}
+
+.Title {
+  font-size: 40px;
+  margin: 15px;
+  color:rgb(238, 228, 32);
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
